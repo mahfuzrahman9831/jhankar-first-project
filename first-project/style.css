@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px 15px;
+}
+
+.title-heading{
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    opacity: 0.7;
+    font-weight:700;
+    color: #575757;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    opacity: 0.6;
+}
+
+p{
+    margin-top: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.7;
+    font-size: 1.3rem;
+}
+
+.btn{
+    padding: 20px 35px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background: rgb(150,153,48);
+    background: linear-gradient(90deg, rgba(150,153,48,0.7245273109243697) 30%, rgba(184,94,17,1) 100%);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.skip{
+    color: #fc984c;
+}
+
+.top-div{
+    display: flex;
+}
+.top-desc{
+    flex: 1;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+.top-img{
+    display:flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.first-shape-image{
+    height: 500px;
+    width: 500px;
+    z-index: -1;
+    position: relative;
+}
+
+.male-image-1{
+    height: 500px;
+    width: 550px;
+    position: absolute;
+    top: -20px;
+}
+
+/* top-div-end */
+
+.middle-div{
+    background-image: url(images/shapes/7.png);
+    height: 650px;
+    width: 100vw;
+    margin-top: 45px;
+}
+
+.female-person-img{
+    height: 600px;
+    width: auto;
+    margin: 50px 0 0 160px;
+}
+
+.middle-div{
+    display: flex;
+}
+
+.middle-left{
+    flex: 1;
+}
+
+.middle-right{
+    
+    flex: 1;
+    padding: 150px 100px 150px 0;
+}
+
+.contact-me-btn{
+    margin-top: 180px;
+}
+
+/* middle div ends here */
+
+.recipies{
+    font-size: 1.8rem;
+    font-weight: 800;
+    opacity: 0.7;
+    
+}
+pre{
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 25px;
+}
+
+.my-recipies{
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* .card-starts-here */
+
+
+.card{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 150px;
+    margin-bottom: 120px;
+    
+}
+
+.food-card{
+    width: 5in;
+    height: 7in;
+      background-color: rgb(255, 255, 255);
+      box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+      -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+      -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+      -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+      border-radius: 25px;
+      padding: 15px 0 15px 15px;
+      
+}
+
+.food-card .first-card-img{
+    height: 3.57in;
+    width: 4.70in;
+    border: 5px solid white;
+    border-radius: 25px;
+    
+}
+
+.card-desc-h1{
+    font-size: 1.9rem;
+    margin-top: 30px;
+
+}
+
+/* card-ends-here */
+
+.achivement{
+    width: 17in;
+    height: 3in;
+      background-color: rgb(255, 255, 255);
+      box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+      -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+      -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+      -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+      border-radius: 25px;
+      /* margin-top: 120px; */
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+}
+
+
+
+.achivement .item h4{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.achivement .item .meta{
+    opacity: 0.8;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+
+.footer{
+    height: 250px;
+    width: 100vw;
+    background: black;
+    margin-top: 120px;
+    padding: 20px 0;
+}
+
+
+.footer h1{
+    color: #5b5b5b;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.footer .footer-heading{
+    margin-top: 60px !important;
+}
+
+.food-color{
+    color: #fa9249;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
